@@ -1,5 +1,4 @@
-﻿
-using Shapes;
+﻿using Shapes;
 
 List<BaseShape> shapes = new();
 shapes.Add(new Square());
