@@ -9,4 +9,5 @@ shapes.Add(new Pentagon());
 foreach (var shape in shapes)
 {
     shape.Draw();
+    shape.CalculateArea();
 }

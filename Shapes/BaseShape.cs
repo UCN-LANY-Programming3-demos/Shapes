@@ -16,5 +16,11 @@ namespace Shapes
 
         // abstract methods forces derived classes to implement them
         public abstract void Draw();
+
+        public int CalculateArea()
+        {
+            Console.WriteLine("Base class");
+            return 0;
+        }
     }
 }

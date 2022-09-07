@@ -12,5 +12,11 @@ namespace Shapes
         {
             Console.WriteLine("drawing square");
         }
+
+        public new int CalculateArea()
+        {
+            Console.WriteLine("derived class");
+            return 0;
+        }
     }
 }
